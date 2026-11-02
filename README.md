@@ -83,7 +83,7 @@ Selecting **High** adds a pulsing red “Instant” confirmation in the menu. Th
 
 ## Credits
 
-Built with **Codex by OpenAI** in collaboration with the project author. The interface direction was informed by the [iSee](https://github.com/hackergod00001/iSee) project.
+Built with Codex.
 
 ## Maintainers: publish a release
 
