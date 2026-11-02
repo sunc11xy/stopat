@@ -1,0 +1,70 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000011 /* StopatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000001 /* StopatApp.swift */; };
+		A10000000000000000000012 /* BackgroundMonitoringService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000002 /* BackgroundMonitoringService.swift */; };
+		A10000000000000000000013 /* VisionProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000003 /* VisionProcessor.swift */; };
+		A10000000000000000000014 /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000004 /* MenuBarController.swift */; };
+		A10000000000000000000015 /* NotchAlertPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000005 /* NotchAlertPanelController.swift */; };
+		A10000000000000000000016 /* FaceRecognitionPreviewPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000009 /* FaceRecognitionPreviewPanelController.swift */; };
+		A10000000000000000000017 /* ScreenBlurController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000010 /* ScreenBlurController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10000000000000000000001 /* StopatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/stopat/StopatApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000002 /* BackgroundMonitoringService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/stopat/BackgroundMonitoringService.swift; sourceTree = "<group>"; };
+		A10000000000000000000003 /* VisionProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/stopat/VisionProcessor.swift; sourceTree = "<group>"; };
+		A10000000000000000000004 /* MenuBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/stopat/MenuBarController.swift; sourceTree = "<group>"; };
+		A10000000000000000000005 /* NotchAlertPanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/stopat/NotchAlertPanelController.swift; sourceTree = "<group>"; };
+		A10000000000000000000006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000000000000000000007 /* stopat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = stopat.entitlements; sourceTree = "<group>"; };
+		A10000000000000000000008 /* stopat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stopat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000009 /* FaceRecognitionPreviewPanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/stopat/FaceRecognitionPreviewPanelController.swift; sourceTree = "<group>"; };
+		A10000000000000000000010 /* ScreenBlurController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/stopat/ScreenBlurController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000000000000000000021 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000000000000000000031 = {isa = PBXGroup; children = (A10000000000000000000032 /* stopat */, A10000000000000000000033 /* Products */); sourceTree = "<group>"; };
+		A10000000000000000000032 /* stopat */ = {isa = PBXGroup; children = (A10000000000000000000001 /* StopatApp.swift */, A10000000000000000000002 /* BackgroundMonitoringService.swift */, A10000000000000000000003 /* VisionProcessor.swift */, A10000000000000000000004 /* MenuBarController.swift */, A10000000000000000000005 /* NotchAlertPanelController.swift */, A10000000000000000000009 /* FaceRecognitionPreviewPanelController.swift */, A10000000000000000000010 /* ScreenBlurController.swift */, A10000000000000000000006 /* Info.plist */, A10000000000000000000007 /* stopat.entitlements */); name = stopat; sourceTree = "<group>"; };
+		A10000000000000000000033 /* Products */ = {isa = PBXGroup; children = (A10000000000000000000008 /* stopat.app */); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000000000000000000041 /* stopat */ = {isa = PBXNativeTarget; buildConfigurationList = A10000000000000000000042 /* Build configuration list for PBXNativeTarget "stopat" */; buildPhases = (A10000000000000000000043 /* Sources */, A10000000000000000000021 /* Frameworks */, A10000000000000000000044 /* Resources */); buildRules = (); dependencies = (); name = stopat; productName = stopat; productReference = A10000000000000000000008 /* stopat.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000000000000000000051 /* Project object */ = {isa = PBXProject; attributes = {LastSwiftUpdateCheck = 1500; LastUpgradeCheck = 1500; TargetAttributes = {A10000000000000000000041 = {CreatedOnToolsVersion = 15.0;};};}; buildConfigurationList = A10000000000000000000052 /* Build configuration list for PBXProject "stopat" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = A10000000000000000000031; productRefGroup = A10000000000000000000033 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (A10000000000000000000041 /* stopat */); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000000000000000000044 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000000000000000000043 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000011 /* StopatApp.swift in Sources */, A10000000000000000000012 /* BackgroundMonitoringService.swift in Sources */, A10000000000000000000013 /* VisionProcessor.swift in Sources */, A10000000000000000000014 /* MenuBarController.swift in Sources */, A10000000000000000000015 /* NotchAlertPanelController.swift in Sources */, A10000000000000000000016 /* FaceRecognitionPreviewPanelController.swift in Sources */, A10000000000000000000017 /* ScreenBlurController.swift in Sources */); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10000000000000000000061 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; CODE_SIGN_STYLE = Automatic; COPY_PHASE_STRIP = NO; GCC_C_LANGUAGE_STANDARD = gnu17; SWIFT_OPTIMIZATION_LEVEL = "-Onone";}; name = Debug; };
+		A10000000000000000000062 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; CODE_SIGN_STYLE = Automatic; GCC_C_LANGUAGE_STANDARD = gnu17; SWIFT_COMPILATION_MODE = wholemodule;}; name = Release; };
+		A10000000000000000000063 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = ""; CODE_SIGN_ENTITLEMENTS = stopat.entitlements; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; ENABLE_APP_SANDBOX = YES; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MACOSX_DEPLOYMENT_TARGET = 13.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.stopat.app; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = macosx; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; }; name = Debug; };
+		A10000000000000000000064 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = ""; CODE_SIGN_ENTITLEMENTS = stopat.entitlements; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; ENABLE_APP_SANDBOX = YES; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MACOSX_DEPLOYMENT_TARGET = 13.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.stopat.app; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = macosx; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_VERSION = 5.0; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000000000000000000042 /* Build configuration list for PBXNativeTarget "stopat" */ = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000063 /* Debug */, A10000000000000000000064 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A10000000000000000000052 /* Build configuration list for PBXProject "stopat" */ = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000061 /* Debug */, A10000000000000000000062 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000000000000000000051 /* Project object */;
+}
