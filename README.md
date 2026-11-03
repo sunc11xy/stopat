@@ -1,6 +1,6 @@
 # stopat
 
-![Downloads](https://github.com/sunc11xy/stopat/total)
+![Downloads](https://shield.io/sunc11xy/stopat/total)
 
 **stopat** is a lightweight, privacy-first macOS menu-bar utility that helps protect your screen when another person appears to be looking toward it. It uses the built-in webcam and Apple's on-device Vision framework—no accounts, network requests, recordings, or telemetry.
 
